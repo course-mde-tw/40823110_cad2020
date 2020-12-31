@@ -82,3 +82,32 @@ git clone --recurse submodules https://github.com/40823111/cad2020.git
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/xjlzaI-gBtI" width="560"></iframe></p>
 <p><span>w14 第五次 meeting</span></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/2Qm9QBx1MCE" width="560"></iframe></p>
+<h1>steps to establish ssh</h1>
+<p>1.下載<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">putty</a>和<a href="https://git-scm.com/download/win">protablegit</a></p>
+<p>2.再命令列輸入 sh enter</p>
+<p>3.</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">輸入ssh-key -t rsa -b 4096 -C "使用者學號"</pre>
+<p><br/> enter</p>
+<p>4.在home/.ssh目錄裡建立一個檔名為config的批次檔</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">y:\home\.ssh\config 中的指令設定:
+
+ProxyCommand y:/putty/plink.exe github.com %h %p
+ 
+Host github.com
+    User git
+    Port 22
+    Hostname github.com
+ 
+    TCPKeepAlive yes
+    IdentitiesOnly yes</pre>
+<p>5.打開puttygen把剛建立好的ssh目錄裡的id_rsa目錄裡的id_rsa的鑰始打開，並存成private key</p>
+<p>6.將id_rsa.pub的內容複製一分到github設定裡的ssh</p>
+<p>7.將倉儲裡的.git目錄下的config裡面的url改成</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">url = git@github.com:學號/倉儲名稱.git</pre>
+<p>8.再啟動檔裡添加ssh的路近</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe
+</pre>
+<p>9.打開putty在session裡輸入github.com<img alt="" height="442" src="/images/putty_pCZ5rI7Tti.png" width="452"/></p>
+<p>在到ssh下的auth把之前轉成privatekey的鑰始載入存起來按open就完成了<img alt="" height="442" src="/images/putty_nWiZwomR9T.png" width="452"/></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/LJlybL5EoRs" width="560"></iframe></p>
