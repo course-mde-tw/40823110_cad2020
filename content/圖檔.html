@@ -1,0 +1,237 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>CMSiMDE</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>40823110 computer aided design internship</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40823110 computer aided design internship</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='每周進度.html'>每周進度</a><ul class='dropdown'><li class='has-children'><a href='W1.html'>W1</a><ul class='dropdown'><li><a href='圖檔.html'>圖檔</a></li></ul><li><a href='W5.html'>W5</a><li><a href='w6.html'>w6</a><li class='has-children'><a href='W7.html'>W7</a><ul class='dropdown'><li><a href='W7-1.html'>W7-1</a></li></ul><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a><li><a href='W11.html'>W11</a><li><a href='W16.html'>W16</a></li></ul><li><a href='拯救英文.html'>拯救英文</a><li><a href='meeting.html'>meeting</a><li><a href='steps to establish ssh.html'>steps to establish ssh</a><li><a href='Heart feeling.html'>Heart feeling</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">W1 << <a href='W1.html'>Previous</a> <a href='W5.html'>Next</a> >> W5<br /><h1>圖檔</h1>
+<p></p>
+<p>50: <a href="https://cad.onshape.com/documents/67764ee60a5a930646481922/w/8d5c2932806e0266e9c7218a/e/ac0e9f517905e8da59abd25b">https://cad.onshape.com/documents/67764ee60a5a930646481922/w/8d5c2932806e0266e9c7218a/e/ac0e9f517905e8da59abd25b</a></p>
+<p>49: <a href="https://cad.onshape.com/documents/01e7069f13259813a8d9d27c/w/99fdba19917d1ef99ef683c4/e/2609a64dca9aafaaba05555b">https://cad.onshape.com/documents/01e7069f13259813a8d9d27c/w/99fdba19917d1ef99ef683c4/e/2609a64dca9aafaaba05555b</a></p>
+<p>48: <a href="https://cad.onshape.com/documents/3e25b6500f93301668df7d6b/w/d1846da3c276c9e0d5cf401b/e/e21050c18b539b3897e6a3a2">https://cad.onshape.com/documents/3e25b6500f93301668df7d6b/w/d1846da3c276c9e0d5cf401b/e/e21050c18b539b3897e6a3a2</a></p>
+<p>47: <a href="https://cad.onshape.com/documents/45a560ebaf4a497f0f90c2b9/w/7947cb4bb18e1fdcdccf65bd/e/4dc9b657625027f686b6f53b">https://cad.onshape.com/documents/45a560ebaf4a497f0f90c2b9/w/7947cb4bb18e1fdcdccf65bd/e/4dc9b657625027f686b6f53b</a></p>
+<p>46: <a href="https://cad.onshape.com/documents/aa4cdeff537672031f1c4dae/w/0d35e716a9cf298be8572ce3/e/0fc7edf305f47ad8e4853700">https://cad.onshape.com/documents/aa4cdeff537672031f1c4dae/w/0d35e716a9cf298be8572ce3/e/0fc7edf305f47ad8e4853700</a></p>
+<p>45: <a href="https://cad.onshape.com/documents/d5731540440927e9a4589133/w/76d921b9c5beb2f42a6aeb63/e/2d30e232d3dc9e16bddd7f6d">https://cad.onshape.com/documents/d5731540440927e9a4589133/w/76d921b9c5beb2f42a6aeb63/e/2d30e232d3dc9e16bddd7f6d</a></p>
+<p>44: <a href="https://cad.onshape.com/documents/0779af89eb97d85d13e888eb/w/020ec7fe0b6de477f00fa8c5/e/a8e94eb8296b598cfcc3052e">https://cad.onshape.com/documents/0779af89eb97d85d13e888eb/w/020ec7fe0b6de477f00fa8c5/e/a8e94eb8296b598cfcc3052e</a></p>
+<p>43: <a href="https://cad.onshape.com/documents/4a89391b508fa5aae8901948/w/7986994a9ddaa23e685b1ccd/e/ca1c6894c2d37313943ce59c">https://cad.onshape.com/documents/4a89391b508fa5aae8901948/w/7986994a9ddaa23e685b1ccd/e/ca1c6894c2d37313943ce59c</a></p>
+<p>42: <a href="https://cad.onshape.com/documents/3408f1be84670050b83e0652/w/529e7068248dff66780aa2f2/e/ed54d7c021f906f22e29bc9f">https://cad.onshape.com/documents/3408f1be84670050b83e0652/w/529e7068248dff66780aa2f2/e/ed54d7c021f906f22e29bc9f</a></p>
+<p>41: <a href="https://cad.onshape.com/documents/9c2b8f04b2e364fd11a36810/w/53d281eca7eb7112629e8a94/e/a9516622ab60fed62fd68399">https://cad.onshape.com/documents/9c2b8f04b2e364fd11a36810/w/53d281eca7eb7112629e8a94/e/a9516622ab60fed62fd68399</a></p>
+<p>40: <a href="https://cad.onshape.com/documents/6246232c4378185e56d54c6e/w/3769bf309a6e354eb6d6f4b8/e/0b415c11caa8e32b0ede8adb">https://cad.onshape.com/documents/6246232c4378185e56d54c6e/w/3769bf309a6e354eb6d6f4b8/e/0b415c11caa8e32b0ede8adb</a></p>
+<p>39: <a href="https://cad.onshape.com/documents/024e00c1b9d8b354eb465b48/w/cb2e52ffc785dd58fe3c763e/e/5ff4f2d44699c5e563ce0979">https://cad.onshape.com/documents/024e00c1b9d8b354eb465b48/w/cb2e52ffc785dd58fe3c763e/e/5ff4f2d44699c5e563ce0979</a></p>
+<p>38: <a href="https://cad.onshape.com/documents/1667ec24dc305438e4c27dd0/w/1cd2af58e703a02347d7a74b/e/67925f371e7374c9c8fc5add">https://cad.onshape.com/documents/1667ec24dc305438e4c27dd0/w/1cd2af58e703a02347d7a74b/e/67925f371e7374c9c8fc5add</a></p>
+<p>37: <a href="https://cad.onshape.com/documents/b0164f1f6ff756e3427b6387/w/f6b09de1b8d1d78b364e63eb/e/4bcd0fb624ff69bf11efd1d4">https://cad.onshape.com/documents/b0164f1f6ff756e3427b6387/w/f6b09de1b8d1d78b364e63eb/e/4bcd0fb624ff69bf11efd1d4</a></p>
+<p>36: <a href="https://cad.onshape.com/documents/7b2c3fb25c6bed2c029ac3f7/w/61ba7b7911df922c574a328b/e/cb427d68482112b66354e191">https://cad.onshape.com/documents/7b2c3fb25c6bed2c029ac3f7/w/61ba7b7911df922c574a328b/e/cb427d68482112b66354e191</a></p>
+<p>35: <a href="https://cad.onshape.com/documents/d9e62a8261ea95fd87b5c395/w/45117985ba659fb20e9b4504/e/2d7fa2867cafeb174fffec89">https://cad.onshape.com/documents/d9e62a8261ea95fd87b5c395/w/45117985ba659fb20e9b4504/e/2d7fa2867cafeb174fffec89</a></p>
+<p>34: <a href="https://cad.onshape.com/documents/6fc4e411f4bde0f4c7855edf/w/52bf8abd669d03f113870180/e/1e8eecddab11e1717045fb28">https://cad.onshape.com/documents/6fc4e411f4bde0f4c7855edf/w/52bf8abd669d03f113870180/e/1e8eecddab11e1717045fb28</a></p>
+<p>33: <a href="https://cad.onshape.com/documents/40b4090f1edc6a3b52d743df/w/7ccb90729f7ee8d1182f5915/e/c29ff35d579fcdbdc8df911d">https://cad.onshape.com/documents/40b4090f1edc6a3b52d743df/w/7ccb90729f7ee8d1182f5915/e/c29ff35d579fcdbdc8df911d</a></p>
+<p>32: <a href="https://cad.onshape.com/documents/9baf95455f145ca41d6b0adf/w/86ca729f2eef7860cb5a0ac8/e/4c81a61ed7a1f20491f0930a">https://cad.onshape.com/documents/9baf95455f145ca41d6b0adf/w/86ca729f2eef7860cb5a0ac8/e/4c81a61ed7a1f20491f0930a</a></p>
+<p>31: <a href="https://cad.onshape.com/documents/253a8ebf57e1ba18b165438a/w/d2aef0df7c01dacd0d510728/e/7f0f18a600e08e5e58f4a199">https://cad.onshape.com/documents/253a8ebf57e1ba18b165438a/w/d2aef0df7c01dacd0d510728/e/7f0f18a600e08e5e58f4a199</a></p>
+<p>30: <a href="https://cad.onshape.com/documents/fbef25d8f52b6e7a41ceb813/w/03051ea74ae8e12d88ac80c4/e/282deaac643247b32db53204">https://cad.onshape.com/documents/fbef25d8f52b6e7a41ceb813/w/03051ea74ae8e12d88ac80c4/e/282deaac643247b32db53204</a></p>
+<p>29: <a href="https://cad.onshape.com/documents/9d9e234e17250553abade4bd/w/7b46aa00fa23b2a53ba3f48a/e/25f7e20dc18e2eb7e4b6f988">https://cad.onshape.com/documents/9d9e234e17250553abade4bd/w/7b46aa00fa23b2a53ba3f48a/e/25f7e20dc18e2eb7e4b6f988</a></p>
+<p>28: <a href="https://cad.onshape.com/documents/61ece78e5f96c2b244fc521d/w/79a9117ca052e3551e2c381f/e/ef35d77bbac0b2e94dc32e2f">https://cad.onshape.com/documents/61ece78e5f96c2b244fc521d/w/79a9117ca052e3551e2c381f/e/ef35d77bbac0b2e94dc32e2f</a></p>
+<p>27: <a href="https://cad.onshape.com/documents/e3299a610dbc103fe744c9f8/w/571bac8630f42cfef8ef1376/e/0a4f09405881155d55a8bccb">https://cad.onshape.com/documents/e3299a610dbc103fe744c9f8/w/571bac8630f42cfef8ef1376/e/0a4f09405881155d55a8bccb</a></p>
+<p>26: <a href="https://cad.onshape.com/documents/610af0e1bf929a29dc6b7165/w/b0b2ce47b1e498cce82dcb36/e/52cc00a071f718aec522fab2">https://cad.onshape.com/documents/610af0e1bf929a29dc6b7165/w/b0b2ce47b1e498cce82dcb36/e/52cc00a071f718aec522fab2</a></p>
+<p>25: <a href="https://cad.onshape.com/documents/3f82deb900d5c49c79eb0c45/w/f82e26f34cc993ff9f78b4a8/e/d266f4e47cb4e7b0e4784e5a">https://cad.onshape.com/documents/3f82deb900d5c49c79eb0c45/w/f82e26f34cc993ff9f78b4a8/e/d266f4e47cb4e7b0e4784e5a</a></p>
+<p>24: <a href="https://cad.onshape.com/documents/a853cf877b2be8d186ca413a/w/b4f7a0039bd29604d6b83760/e/2e4392410e30fa03c7dcb504">https://cad.onshape.com/documents/a853cf877b2be8d186ca413a/w/b4f7a0039bd29604d6b83760/e/2e4392410e30fa03c7dcb504</a></p>
+<p>23: <a href="https://cad.onshape.com/documents/054830bdeecfbad365cf0ed3/w/5c2a5735a7fc4cc395dc72c7/e/21b234c1aef7a417a4f2096e">https://cad.onshape.com/documents/054830bdeecfbad365cf0ed3/w/5c2a5735a7fc4cc395dc72c7/e/21b234c1aef7a417a4f2096e</a></p>
+<p>22: <a href="https://cad.onshape.com/documents/a25c6deb43b49fd406cbc30a/w/5184db529a484826f46ab77a/e/113277cd5033b29580a9fe14">https://cad.onshape.com/documents/a25c6deb43b49fd406cbc30a/w/5184db529a484826f46ab77a/e/113277cd5033b29580a9fe14</a></p>
+<p>21:<a href="https://cad.onshape.com/documents/555c037e4c544d7e41cd9c4a/w/2f514d0e3eedf626edd256ab/e/9ed2220f5b862201a11a2e2f">https://cad.onshape.com/documents/555c037e4c544d7e41cd9c4a/w/2f514d0e3eedf626edd256ab/e/9ed2220f5b862201a11a2e2f</a></p>
+<p>20: <a href="https://cad.onshape.com/documents/00d2d3d97d8e2a206c9a5d52/w/e46284bfca1e3292d0cb2597/e/c845f1635fff1fb529555f85">https://cad.onshape.com/documents/00d2d3d97d8e2a206c9a5d52/w/e46284bfca1e3292d0cb2597/e/c845f1635fff1fb529555f85</a></p>
+<p>19: <a href="https://cad.onshape.com/documents/79c8735713517a666398e1dc/w/09063694be7ae50f98622e92/e/3ae879d78bc33ce1554a4fab">https://cad.onshape.com/documents/79c8735713517a666398e1dc/w/09063694be7ae50f98622e92/e/3ae879d78bc33ce1554a4fab</a></p>
+<p>18: <a href="https://cad.onshape.com/documents/e4292e7fbdc173a0142e1f6e/w/49f0be6d4a5068dbd0c7b4cd/e/19f82b0fddd8d45fb2a7a84a">https://cad.onshape.com/documents/e4292e7fbdc173a0142e1f6e/w/49f0be6d4a5068dbd0c7b4cd/e/19f82b0fddd8d45fb2a7a84a</a></p>
+<p>17: <a href="https://cad.onshape.com/documents/2880615de3aa83f2575b73d9/w/fd67727de5804b41a62e1de6/e/aa9f6607b9e2990350ac7259">https://cad.onshape.com/documents/2880615de3aa83f2575b73d9/w/fd67727de5804b41a62e1de6/e/aa9f6607b9e2990350ac7259</a></p>
+<p>16: <a href="https://cad.onshape.com/documents/040cb15a9c14b3cab4cdeed7/w/e642934dabf3c29fb7877d5c/e/55150bfbb39eb2edd64eacfa">https://cad.onshape.com/documents/040cb15a9c14b3cab4cdeed7/w/e642934dabf3c29fb7877d5c/e/55150bfbb39eb2edd64eacfa</a></p>
+<p>15: <a href="https://cad.onshape.com/documents/e53efa704eff5d0020ee71f1/w/69e2afd9e5a823bb2766a56b/e/6e67ea4bae772adbdccefced">https://cad.onshape.com/documents/e53efa704eff5d0020ee71f1/w/69e2afd9e5a823bb2766a56b/e/6e67ea4bae772adbdccefced</a></p>
+<p>14: <a href="https://cad.onshape.com/documents/ed7e3bbaa41ae533b48821c4/w/44d10e98d32c4460bc8ec4f3/e/52cada95082d683800b3f148">https://cad.onshape.com/documents/ed7e3bbaa41ae533b48821c4/w/44d10e98d32c4460bc8ec4f3/e/52cada95082d683800b3f148</a></p>
+<p>13: <a href="https://cad.onshape.com/documents/0196f66e1e590026e158d1fb/w/3ff2b90488ff97afa7223d59/e/912511ff7758529c25f4b7c7">https://cad.onshape.com/documents/0196f66e1e590026e158d1fb/w/3ff2b90488ff97afa7223d59/e/912511ff7758529c25f4b7c7</a></p>
+<p>12: <a href="https://cad.onshape.com/documents/e8544e16447cc754e85993a1/w/3133d1766d88eb7e8e9622fd/e/6bd09d4acf445293e18fc06b">https://cad.onshape.com/documents/e8544e16447cc754e85993a1/w/3133d1766d88eb7e8e9622fd/e/6bd09d4acf445293e18fc06b</a></p>
+<p>11: <a href="https://cad.onshape.com/documents/01c01046d0ba94e5a46783fe/w/1c383715fd425c1f7e1fc76d/e/4aeafa421a74733e6e9bfcd4">https://cad.onshape.com/documents/01c01046d0ba94e5a46783fe/w/1c383715fd425c1f7e1fc76d/e/4aeafa421a74733e6e9bfcd4</a></p>
+<p>10: <a href="https://cad.onshape.com/documents/7652f9fa95dfade8025ab9f8/w/96821dd07334a52ef4008a92/e/089185fd419e75a32c777de6">https://cad.onshape.com/documents/7652f9fa95dfade8025ab9f8/w/96821dd07334a52ef4008a92/e/089185fd419e75a32c777de6</a></p>
+<p>9: <a href="https://cad.onshape.com/documents/1ce8d03bee3455ebe5f83dbb/w/4a077a35638ac4b9846ef1c5/e/af8832461f5f34c1eedf8647">https://cad.onshape.com/documents/1ce8d03bee3455ebe5f83dbb/w/4a077a35638ac4b9846ef1c5/e/af8832461f5f34c1eedf8647</a></p>
+<p>8: <a href="https://cad.onshape.com/documents/f7638652e696877ddde3e093/w/22917675be9c29322cab8abc/e/22312455688759b10a91f5b1">https://cad.onshape.com/documents/f7638652e696877ddde3e093/w/22917675be9c29322cab8abc/e/22312455688759b10a91f5b1</a></p>
+<p>7: <a href="https://cad.onshape.com/documents/222bd9ec7d5c606a84f57e84/w/2af66e3cf752bef60f745a31/e/054e599a9b99ebb8c77bf189">https://cad.onshape.com/documents/222bd9ec7d5c606a84f57e84/w/2af66e3cf752bef60f745a31/e/054e599a9b99ebb8c77bf189</a></p>
+<p>6: <a href="https://cad.onshape.com/documents/9e099d4acca1fc1c4505859a/w/6d820209c9f5076e0283a99d/e/75b1c75d868c174001432e94">https://cad.onshape.com/documents/9e099d4acca1fc1c4505859a/w/6d820209c9f5076e0283a99d/e/75b1c75d868c174001432e94</a></p>
+<p>5: <a href="https://cad.onshape.com/documents/7aeaa47572b66713be252d11/w/677942979611e9f3bc6d2828/e/23ca7df05a3f169f90e40e7e">https://cad.onshape.com/documents/7aeaa47572b66713be252d11/w/677942979611e9f3bc6d2828/e/23ca7df05a3f169f90e40e7e</a></p>
+<p>4: <a href="https://cad.onshape.com/documents/863c303047325ce19065de0d/w/10279bfa45c0ccecac9df490/e/2bd6bd693af4b67204dda24c">https://cad.onshape.com/documents/863c303047325ce19065de0d/w/10279bfa45c0ccecac9df490/e/2bd6bd693af4b67204dda24c</a></p>
+<p>3: <a href="https://cad.onshape.com/documents/baaebc06be2e04d5ced92b12/w/1c72706e634eec702872bcfd/e/c9d2a2221ff7a4b3b26264ff">https://cad.onshape.com/documents/baaebc06be2e04d5ced92b12/w/1c72706e634eec702872bcfd/e/c9d2a2221ff7a4b3b26264ff</a></p>
+<p>2: <a href="https://cad.onshape.com/documents/23ba44a67d8d40c102be8182/w/f32c79a71d0bc6f72074e5f5/e/cd7b3c975062f69e889cd935">https://cad.onshape.com/documents/23ba44a67d8d40c102be8182/w/f32c79a71d0bc6f72074e5f5/e/cd7b3c975062f69e889cd935</a></p>
+<p>1: <a href="https://cad.onshape.com/documents/f1eac240036797d4ecfc68f3/w/73da17a9d9f7154142f0d1b8/e/74992aaad36c0855d90bd1a7">https://cad.onshape.com/documents/f1eac240036797d4ecfc68f3/w/73da17a9d9f7154142f0d1b8/e/74992aaad36c0855d90bd1a7</a></p><br />W1 << <a href='W1.html'>Previous</a> <a href='W5.html'>Next</a> >> W5</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        
